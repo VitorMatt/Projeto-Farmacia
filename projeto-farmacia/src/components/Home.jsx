@@ -1,14 +1,22 @@
-import React from 'react';
 import placa from '../assets/placa.avif';
+import cartao from '../assets/cartoes.avif';
 import camiseta from '../assets/camiseta1.avif';
 import camisetaGrande from '../assets/camiseta2.avif';
 import './css/Home.css';
 
 function Home() {
+
   return (
     <div className='divMaior'>
       <div className='divText'>
         <h1>A melhor farmácia da região.</h1>
+        <div className='text'>
+          <div>
+            <h3>Faça o seu cartão personalizado já!</h3>
+            <button>Realizar cartão</button>
+          </div>
+          <img src={cartao} />
+        </div>
       </div>
       <div className='divPlaca'>
         <img src={placa} />
@@ -26,7 +34,10 @@ function Home() {
               <img src={camiseta} />
             </div>
             <div className='camisetaG'>
-              <h2>Compre agora por apenas 30,99R$!</h2>
+              <div>
+                <h2>Compre agora por apenas 30,99R$!</h2>
+                <button>Comprar</button>
+              </div>
               <img src={camisetaGrande} />
             </div>
         </div>

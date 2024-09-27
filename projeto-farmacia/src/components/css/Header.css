@@ -18,6 +18,7 @@ nav {
 
     display: flex;
     font-family: "Roboto", sans-serif;
+    width: 100%;
 }
 
 img {
@@ -25,12 +26,12 @@ img {
     height: 150px;
     width: 230px;
     margin-top: -10px;
+    margin-right: -120px;
 }
 
 .links {
 
     display: flex;
-    margin-left: 500px;
     margin: auto;
     justify-content: center;
 }
@@ -50,9 +51,8 @@ img {
 
 .links button {
 
-    padding: 3%;
-    background-color: white;
-    color: var(--cor-3);
+    background-color: var(--cor-4);
+    color: var(--cor-2);
     border: 1px solid;
     justify-content: center;
     margin: auto;
@@ -62,11 +62,13 @@ img {
     margin-right: -450px;
     border-radius: 6px;
     margin-top: -8px;
+    width: 100px;
+    height: 35px;
 }
 
 .links button:hover {
 
-    background-color: var(--cor-3);
-    color: white;
+    background-color: var(--cor-2);
+    color: var(--cor-4);
     transition: 0.5s;
 }

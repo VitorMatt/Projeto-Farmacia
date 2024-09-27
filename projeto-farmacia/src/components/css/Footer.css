@@ -15,7 +15,44 @@
     display: flex;
     padding: 1%;
     height: 200px;
-    background-color: var(--cor-6);
+    background-color: var(--cor-2);
     width: 100%;
     align-items: center;
+    font-family: "Roboto", sans-serif;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    border-top: 1px solid rgb(201, 199, 199);
+    padding-top: 7%;
+}
+
+.footer img {
+
+    width: 100px;
+    height: 100px;
+    margin-right: 200px;
+    margin-bottom: -20px;
+}
+
+p:hover {
+
+    text-decoration: underline;
+}
+
+.footer .logo {
+
+    width: 15%;
+    font-size: 15px;
+    margin-left: 80px;
+}
+
+.footer .suporte {
+
+    margin-left: 400px;
+}
+
+.footer .termos,
+.footer .contatos {
+
+    display: block;
+    margin-left: 80px;
 }

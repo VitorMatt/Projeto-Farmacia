@@ -27,8 +27,9 @@
 
     display: flex;
     flex-wrap: wrap;
-    width: 25%;
-    margin-left: 50px;
+    width: 30%;
+    margin-left: 80px;
+    margin-top: 100px;
 }
 
 .divText h1 {
@@ -38,26 +39,74 @@
     color: var(--cor-1);
 }
 
+.divText h3 {
+
+    font-size: 25px;
+    color: var(--cor-4);
+    width: 300px;
+}
+
+.divText .text {
+
+    height: 300px;
+    display: flex;
+}
+
+.divText img {
+
+    border-radius: 5px;
+    width: 220px;
+    height: 140px;
+    margin-top: 28px;
+    opacity: 100%;
+}
+
+.divText button {
+
+    background-color: var(--cor-4);
+    color: var(--cor-2);
+    border: 1px solid;
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: -300px;
+    border-radius: 6px;
+    margin-top: -8px;
+    width: 200px;
+    height: 35px;
+}
+
+.divText button:hover {
+
+    background-color: var(--cor-2);
+    color: var(--cor-4);
+    transition: 0.5s;
+}
+
 .divPlaca {
 
     margin: auto;
     width: 10%;
-    margin-left: 730px;
+    margin-left: 392px;
+    margin-bottom: 50px;
 }
 
 .divPlaca img {
 
-    width: 420px;
-    height: 390px;
-    opacity: 30%;
+    width: 520px;
+    height: 490px;
+    opacity: 40%;
     border: 1px solid grey;
     border-radius: 6px;
+    margin-top: 15px;
 }
 
 .divPromocoes {
 
     display: block;
     flex-direction: row;
+    margin-top: 100px;
 }
 
 .divPromocoes h1 {
@@ -98,14 +147,13 @@ h2 {
 .camisetas .camisetaG {
 
     margin-left: 400px;
-    box-shadow: 2px 4px 5px black;
-    border-radius: 5px;
     padding: 0.5%;
     height: fit-content;
-    width: 350px;
+    width: 200px;
+    margin-top: -40px;
+    display: flex;
 }
 
-.camisetaG:hover,
 .camisetaP:hover {
 
     background-color: var(--cor-5);
@@ -115,7 +163,37 @@ h2 {
 .camisetaG img {
 
     width: 350px;
-    height: 300px;
+    height: 350px;
+}
+
+.camisetaG button {
+
+    background-color: var(--cor-4);
+    color: var(--cor-2);
+    border: 1px solid;
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: -8px;
+    margin-left: -317px;
+    width: 200px;
+    height: 35px;
+}
+
+.camisetaG button:hover {
+
+    background-color: var(--cor-2);
+    color: var(--cor-4);
+    transition: 0.5s;
+}
+
+.camisetaG h2 {
+
+    font-size: 35px;
+    margin-right: 10px;
+    margin-left: -350px;
 }
 
 .camisetas .camisetaP img {
