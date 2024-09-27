@@ -11,12 +11,13 @@
 
 .footer {
 
+    background: var(--cor-5);
     margin: auto;
     display: flex;
     padding: 1%;
     height: 200px;
     background-color: var(--cor-2);
-    width: 100%;
+    width: 98.5%;
     align-items: center;
     font-family: "Roboto", sans-serif;
     margin-top: 200px;
@@ -40,14 +41,14 @@ p:hover {
 
 .footer .logo {
 
-    width: 15%;
+    width: 12%;
     font-size: 15px;
     margin-left: 80px;
 }
 
 .footer .suporte {
 
-    margin-left: 400px;
+    margin-left: 580px;
 }
 
 .footer .termos,

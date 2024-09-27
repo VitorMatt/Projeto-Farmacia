@@ -21,8 +21,8 @@ function Footer() {
       </div>
       <div className='termos'>
         <h2>Termos</h2>
-        <p>Termos</p>
         <p>Privacidade</p>
+        <p>Termos</p>
       </div>
     </div>
   );

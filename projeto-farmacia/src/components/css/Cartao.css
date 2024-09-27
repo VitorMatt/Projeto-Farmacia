@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --cor-1: #e23e57;
+    --cor-2: #ffffff;
+    --cor-3: #e96a7e;
+    --cor-4: #ce1f3a;
+    --cor-5: #e6e6e6;
+    --cor-6: #ef97a4;
+}
+
+form {
+
+    background-color: var(--cor-2);
+    padding: 2%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 20%;
+}
+
+input,
+label,
+button {
+    
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.divForm {
+    
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin-left: -200px;
+    margin-top: -20px;
+    width: 100%;
+}
+
+.divForm label {
+
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 19px;
+    color: var(--cor-4)
+}
+
+.divText2 h1 {
+
+    width: 100%;
+    color: var(--cor-4);
+    margin-top: 100px;
+    font-size: 45px;
+}
+
+.divText2 h3 {
+
+    margin-top: -105px;
+    color: var(--cor-4);
+    margin-top: 40px;
+    width: 250px;
+    font-size: 25px;
+}
+
+.divText2 {
+
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.divText2 h4 {
+
+    margin-top: 10px;
+    color: var(--cor-4);
+    height: fit-content;
+}
+
+.divText2 h4:hover {
+
+    text-decoration: underline;
+}
+
+.divImg {
+
+    margin: auto;
+    margin-left: -50px;
+    margin-top: 180px;
+}
+
+.divImg img {
+
+    height: 250px;
+}
+
+.divForm input {
+
+    border-radius: 5px;
+    border: 1px solid var(--cor-4);
+    opacity: 80%;
+    height: 50px;
+}
+
+.divForm button {
+
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: var(--cor-4);
+    color: var(--cor-2);
+    border: 1px solid var(--cor-4);
+    font-weight: bold;
+    padding: 4%;
+}
+
+.divForm button:hover {
+
+    background-color: var(--cor-2);
+    border: 1px solid var(--cor-4);
+    color: var(--cor-4);
+    transition: 0.5s;
+}
+
+.divForm input::placeholder {
+
+    color: var(--cor-4);
+    opacity: 100%;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.divForm h2 {
+
+    color: var(--cor-4);
+}
+
+.divCardDone {
+
+    background-color: var(--cor-2);
+    padding: 2%;
+    border: none;
+    border-radius: 10px;
+    margin-top: -10px;
+    margin-left: 100px;
+    margin-right: 200px;
+    width: 20%;
+    height: 400px;
+}
+
+.divCardDone h1 {
+
+    color: var(--cor-4);
+    margin-bottom: 40px;
+}
+
+.divCardDone img {
+
+    margin-bottom: 40px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+.divCardDone h3 {
+
+    color: var(--cor-4);
+}
+
+.divCardDone button {
+
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: var(--cor-4);
+    color: var(--cor-2);
+    border: 1px solid var(--cor-4);
+    font-weight: bold;
+    padding: 4%;
+    width: 100%;
+}
+
+.divCardDone button:hover {
+
+    background-color: var(--cor-2);
+    border: 1px solid var(--cor-4);
+    color: var(--cor-4);
+    transition: 0.5s;
+}
+
+.divCardDone img:hover,
+.divImg img:hover,
+.divText2 img:hover {
+
+    opacity: 100%;
+}

@@ -9,6 +9,11 @@
     --cor-6: #ef97a4;
 }
 
+body {
+
+    background-color: var(--cor-2);
+}
+
 *:hover {
 
     outline: none;
@@ -29,13 +34,13 @@
     flex-wrap: wrap;
     width: 30%;
     margin-left: 80px;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .divText h1 {
 
     font-size: 45px;
-    width: 100%;
+    width: 90%;
     color: var(--cor-1);
 }
 
@@ -55,10 +60,9 @@
 .divText img {
 
     border-radius: 5px;
-    width: 220px;
-    height: 140px;
-    margin-top: 28px;
-    opacity: 100%;
+    width: 270px;
+    height: 190px;
+    margin-top: 5px;
 }
 
 .divText button {
@@ -68,7 +72,7 @@
     border: 1px solid;
     justify-content: center;
     margin: auto;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     margin-right: -300px;
     border-radius: 6px;
@@ -84,22 +88,20 @@
     transition: 0.5s;
 }
 
-.divPlaca {
+.divLogo {
 
     margin: auto;
     width: 10%;
-    margin-left: 392px;
+    margin-left: 500px;
     margin-bottom: 50px;
 }
 
-.divPlaca img {
+.divLogo img {
 
     width: 520px;
-    height: 490px;
-    opacity: 40%;
-    border: 1px solid grey;
-    border-radius: 6px;
-    margin-top: 15px;
+    height: 350px;
+    margin-left: -150px;
+    margin-bottom: 70px;
 }
 
 .divPromocoes {
@@ -114,7 +116,7 @@
     font-size: 35px;
     width: 100%;
     color: var(--cor-1);
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .divCamisetas {
@@ -146,7 +148,7 @@ h2 {
 
 .camisetas .camisetaG {
 
-    margin-left: 400px;
+    margin-left: 450px;
     padding: 0.5%;
     height: fit-content;
     width: 200px;
@@ -166,6 +168,11 @@ h2 {
     height: 350px;
 }
 
+.camisetaG div {
+
+    margin-right: 100px;
+}
+
 .camisetaG button {
 
     background-color: var(--cor-4);
@@ -173,7 +180,7 @@ h2 {
     border: 1px solid;
     justify-content: center;
     margin: auto;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     border-radius: 6px;
     margin-top: -8px;

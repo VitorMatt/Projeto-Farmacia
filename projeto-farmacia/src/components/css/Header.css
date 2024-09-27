@@ -18,6 +18,7 @@ nav {
 
     display: flex;
     font-family: "Roboto", sans-serif;
+    background-color: var(--cor-2);
     width: 100%;
 }
 
@@ -27,6 +28,12 @@ img {
     width: 230px;
     margin-top: -10px;
     margin-right: -120px;
+}
+
+img:hover {
+
+    opacity: 60%;
+    transition: 0.5s;
 }
 
 .links {
@@ -47,6 +54,8 @@ img {
 .links a:hover {
 
     color: var(--cor-4);
+    font-size: 20.8px;
+    transition: 0.5s;
 }
 
 .links button {
@@ -56,10 +65,10 @@ img {
     border: 1px solid;
     justify-content: center;
     margin: auto;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     margin-left: 200px;
-    margin-right: -450px;
+    margin-right: -560px;
     border-radius: 6px;
     margin-top: -8px;
     width: 100px;
