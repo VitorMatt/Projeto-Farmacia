@@ -9,6 +9,11 @@
     --cor-6: #ef97a4;
 }
 
+.divMaior2 {
+
+    display: flex;
+}
+
 form {
 
     background-color: var(--cor-2);
@@ -36,6 +41,7 @@ button {
     margin-left: -200px;
     margin-top: -20px;
     width: 100%;
+    font-family: "Roboto", sans-serif;
 }
 
 .divForm label {
@@ -44,6 +50,13 @@ button {
     font-weight: bold;
     font-size: 19px;
     color: var(--cor-4)
+}
+
+.divText2,
+.divCardDone,
+.divCard {
+
+    font-family: "Roboto", sans-serif;
 }
 
 .divText2 h1 {
@@ -101,7 +114,8 @@ button {
     height: 50px;
 }
 
-.divForm button {
+.divForm button,
+.divMaior3 button {
 
     margin-top: 20px;
     border-radius: 5px;
@@ -112,7 +126,8 @@ button {
     padding: 4%;
 }
 
-.divForm button:hover {
+.divForm button:hover,
+.divMaior3 button:hover {
 
     background-color: var(--cor-2);
     border: 1px solid var(--cor-4);
@@ -146,10 +161,108 @@ button {
     height: 400px;
 }
 
+.divMaior3 {
+
+    margin-left: 28%;
+    margin-right: -3%;
+}
+
+.divCard {
+
+    background-color: var(--cor-2);
+    border-top: 1px solid var(--cor-4);
+    border-bottom: 1px solid var(--cor-4);
+    padding: 2%;
+    margin-top: 20%;
+    margin-left: 50px;
+    margin-right: 450px;
+    width: 70%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#h1Card1 {
+
+    font-size: 30px;
+    width: 5%;
+    margin-left: 3%;
+    position: absolute;
+    color: var(--cor-4);
+}
+
+#h1card2 {
+
+    font-size: 30px;
+    position: absolute;
+    margin-top: 4.3%;
+    margin-left: 3%;
+    color: var(--cor-2);
+}
+
+.divCard h1 {
+
+    font-size: 20px;
+    color: var(--cor-4);
+}
+
+.colorDiv {
+
+    background-color: var(--cor-4);
+    width: 100%;
+    margin-top: 12%;
+    height: 15%;
+    border-radius: 3%;
+}
+
+.divCard div {
+
+    margin-right: 1%;
+}
+
+.divCard h2 {
+
+    color: var(--cor-4);
+}
+
+.divCard div {
+
+    margin-left: 6%;
+}
+
+.divMaior3 button {
+
+    width: 40%;
+    padding: 2%;
+    margin-left: 25%;
+}
+
+.divPassword button {
+
+    background-color: var(--cor-4);
+    width: 200%;
+    position: relative;
+    margin-top: -20%;
+    margin-left: -60%;
+}
+
+.divUnderline h3 {
+
+    margin-bottom: -3px;
+}
+
+.divUnderline {
+
+    border-bottom: 2px solid var(--cor-4);
+    width: 51%;
+    margin-bottom: -40px;
+}
+
 .divCardDone h1 {
 
     color: var(--cor-4);
     margin-bottom: 40px;
+    width: 150%;
 }
 
 .divCardDone img {
