@@ -42,12 +42,18 @@ img:hover {
     justify-content: center;
 }
 
+.links .linkCamisetas {
+
+    margin-left: -2%;
+}
+
 .links a {
 
     color: var(--cor-3);
     font-size: 20px;
-    margin-left: 60px;
+    margin-left: 50px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .links a:hover {

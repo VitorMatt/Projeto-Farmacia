@@ -1,8 +1,9 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Home from './components/Home.jsx';
-import Cartao from './components/Cartao.jsx';
+import Home from './pages/Home.jsx';
+import Cartao from './pages/Cartao.jsx';
+import Camisetas from './pages/Camisetas.jsx';
 import App from './App.jsx';
 
 const router = createBrowserRouter([{
@@ -17,6 +18,10 @@ const router = createBrowserRouter([{
   {
     path: '/',
     element: <Home />
+  },
+  {
+    path: '/camisetas',
+    element: <Camisetas />
   }
 ]
 }]);

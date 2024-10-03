@@ -43,7 +43,9 @@ function Home() {
             <div className='camisetaG'>
               <div>
                 <h2>Compre agora por apenas R$30,99!</h2>
-                <button>Comprar</button>
+                <Link to='/camisetas'>
+                  <button>Comprar</button>
+                </Link>
               </div>
               <img src={camisetaGrande} />
             </div>
